@@ -20,6 +20,11 @@ const scrollRevealOption = {
   duration: 1000,
 };
 
+ScrollReveal().reveal(".header__image img", {
+  ...scrollRevealOption,
+});
+
+
 ScrollReveal().reveal(".header__content h1", {
   ...scrollRevealOption,
 });

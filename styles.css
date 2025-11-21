@@ -146,8 +146,11 @@ nav {
 }
 
 .header__image img {
-  max-width: 550px;
+  max-width: 1000px;
   margin-inline: auto;
+  background: none; /* ensures no extra background */
+
+  /* box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25); */
 }
 
 .header__content h1 {
@@ -160,7 +163,7 @@ nav {
 }
 
 .header__content h1 span {
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .header__btns {
@@ -190,7 +193,7 @@ nav {
 }
 
 .service {
-  background-color: var(--extra-light);
+  background-color: var(--primary-color);
 }
 
 .service__container.section__header {
@@ -282,8 +285,11 @@ nav {
 }
 
 .about__image img {
-  max-width: 450px;
+  max-width: 500px;
   margin-inline: auto;
+  /* margin-top: 8em; */
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
 
 .about__content .section__header {
@@ -359,7 +365,7 @@ nav {
   padding-block: 1.5rem;
   display: flex;
   align-items: center;
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   border-radius: 0.25rem;
   z-index: 1;
 }
@@ -377,6 +383,7 @@ nav {
 
 .portfolio__image img {
   border-radius: 0.5rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
 
 .portfolio__image__content h4 {
@@ -414,7 +421,7 @@ nav {
   font-size: 1.2rem;
   font-weight: 600;
   color: var(--white);
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   border-radius: 0.25rem;
 }
 
@@ -506,7 +513,7 @@ nav {
 .subscribe__content {
   padding: 5rem 1rem;
   border-radius: 1rem;
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -553,7 +560,7 @@ nav {
 }
 
 .footer__logo a span {
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .footer__col .section__description {
@@ -577,14 +584,14 @@ nav {
 .footer__socials a {
   padding: 4px 6px;
   font-size: 1.125rem;
-  color: var(--secondary-color);
-  border: 1px solid var(--secondary-color);
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
   border-radius: 100%;
 }
 
 .footer__socials a:hover {
   color: var(--white);
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
 }
 
 .footer__col h4 {
@@ -606,13 +613,13 @@ nav {
 }
 
 .footer__links a:hover {
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .footer__links a span {
   margin-right: 0.5rem;
   font-size: 1.2rem;
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .footer__bar {
@@ -657,7 +664,7 @@ nav {
   }
 
   .nav__logo a span {
-    color: var(--secondary-color);
+    color: var(--primary-color);
   }
 
   .nav__menu__btn {
